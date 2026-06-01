@@ -9,7 +9,7 @@ A journey of building 7 Machine Learning projects in 7 days!
 | Day | Project | Status |
 |-----|---------|--------|
 | Day 1 | 🏠 House Price Prediction | ✅ Done |
-| Day 2 | 📧 Spam Detector | 🔜 Coming |
+| Day 2 | 📧 Spam Detector | ✅ Done |
 | Day 3 | 🌸 Flower Classifier | 🔜 Coming |
 | Day 4 | 🎬 Movie Recommender | 🔜 Coming |
 | Day 5 | 😊 Sentiment Analysis | 🔜 Coming |
@@ -24,10 +24,7 @@ A journey of building 7 Machine Learning projects in 7 days!
 Predicted California house prices using Linear Regression.
 
 ### Tech Stack
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
+- Python | Pandas | Scikit-learn | Matplotlib
 
 ### Results
 - R² Score: 0.58
@@ -37,6 +34,25 @@ Predicted California house prices using Linear Regression.
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python houseprice.py
+
+---
+
+## 📧 Day 2 — Spam Detector
+
+### What I built
+Detects whether an SMS/Email is Spam or Ham using Naive Bayes.
+
+### Tech Stack
+- Python | Pandas | Scikit-learn | NLTK
+
+### Results
+- Accuracy: ~98%
+- Algorithm: Multinomial Naive Bayes
+- Dataset: SMS Spam Collection (5,572 messages)
+
+### How to Run
+pip install pandas numpy scikit-learn nltk
+python Day2_spam_detector.py
 
 ---
 
