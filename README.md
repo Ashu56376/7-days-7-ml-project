@@ -10,7 +10,7 @@ A journey of building 7 Machine Learning projects in 7 days!
 |-----|---------|--------|
 | Day 1 | 🏠 House Price Prediction | ✅ Done |
 | Day 2 | 📧 Spam Detector | ✅ Done |
-| Day 3 | 🌸 Flower Classifier | 🔜 Coming |
+| Day 3 | 🌸 Flower Classifier | ✅ Done |
 | Day 4 | 🎬 Movie Recommender | 🔜 Coming |
 | Day 5 | 😊 Sentiment Analysis | 🔜 Coming |
 | Day 6 | 🖼️ Image Classifier | 🔜 Coming |
@@ -33,38 +33,55 @@ Predicted California house prices using Linear Regression.
 
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
-python houseprice.py
+python Day1_houseprice.py
 
 ---
 
 ## 📧 Day 2 — Spam Detector
 
 ### What I built
-A full Spam Detector app with GUI, Graphs, and ML Model.
+Full Spam Detector with GUI, Graphs and 98%+ accuracy.
 
 ### Features
-- TF-IDF Vectorizer for better text processing
-- Logistic Regression model (98%+ accuracy)
-- 3 Analysis Graphs: Spam vs Ham, Confusion Matrix, Top 10 Spam Words
-- Tkinter GUI App - type any message and check if it's spam!
-- Saves spam_analysis.png graph automatically
+- TF-IDF Vectorizer
+- Logistic Regression model
+- Confusion Matrix, Distribution, Top Spam Words graphs
+- Tkinter Desktop GUI App
 
 ### Tech Stack
-- Python | Pandas | Numpy | Scikit-learn
-- Matplotlib | Seaborn | Tkinter
-
-### Dataset
-- SMS Spam Collection — 5,572 messages
-- Source: justmarkham/pycon-2016-tutorial
+- Python | Pandas | Scikit-learn | Tkinter | Matplotlib | Seaborn
 
 ### Results
 - Accuracy: 98%+
-- Algorithm: Logistic Regression + TF-IDF
-- Features: 5000 max features
+- Dataset: 5,572 SMS messages
 
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
-python spam_detector.py
+python Day2_spam_detector.py
+
+---
+
+## 🌸 Day 3 — Flower Classifier
+
+### What I built
+Classified Iris flowers into 3 species using Random Forest.
+
+### Features
+- EDA with 9 detailed graphs
+- Random Forest Classifier
+- Model saved as .pkl file
+- Feature importance visualization
+
+### Tech Stack
+- Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Pickle
+
+### Results
+- Dataset: Iris — 150 flowers, 3 species
+- Algorithm: Random Forest
+
+### How to Run
+pip install pandas numpy scikit-learn matplotlib seaborn
+python Day3_flower_classifier.py
 
 ---
 
