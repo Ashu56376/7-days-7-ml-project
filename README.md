@@ -11,7 +11,7 @@ A journey of building 7 Machine Learning projects in 7 days!
 | Day 1 | 🏠 House Price Prediction | ✅ Done |
 | Day 2 | 📧 Spam Detector | ✅ Done |
 | Day 3 | 🌸 Flower Classifier | ✅ Done |
-| Day 4 | 🎬 Movie Recommender | 🔜 Coming |
+| Day 4 | 🎬 Movie Recommender | ✅ Done |
 | Day 5 | 😊 Sentiment Analysis | 🔜 Coming |
 | Day 6 | 🖼️ Image Classifier | 🔜 Coming |
 | Day 7 | 🤖 AI Chatbot | 🔜 Coming |
@@ -42,12 +42,6 @@ python Day1_houseprice.py
 ### What I built
 Full Spam Detector with GUI, Graphs and 98%+ accuracy.
 
-### Features
-- TF-IDF Vectorizer
-- Logistic Regression model
-- Confusion Matrix, Distribution, Top Spam Words graphs
-- Tkinter Desktop GUI App
-
 ### Tech Stack
 - Python | Pandas | Scikit-learn | Tkinter | Matplotlib | Seaborn
 
@@ -66,12 +60,6 @@ python Day2_spam_detector.py
 ### What I built
 Classified Iris flowers into 3 species using Random Forest.
 
-### Features
-- EDA with 9 detailed graphs
-- Random Forest Classifier
-- Model saved as .pkl file
-- Feature importance visualization
-
 ### Tech Stack
 - Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Pickle
 
@@ -82,6 +70,31 @@ Classified Iris flowers into 3 species using Random Forest.
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python Day3_flower_classifier.py
+
+---
+
+## 🎬 Day 4 — Movie Recommender System
+
+### What I built
+Content-based Movie Recommender using Cosine Similarity and TF-IDF.
+
+### Features
+- 24 movies dataset with genres and descriptions
+- TF-IDF Vectorizer for content analysis
+- Cosine Similarity for finding similar movies
+- 3 Analysis Graphs: Genre Distribution, Rating Distribution, Similarity Heatmap
+- Interactive CLI — type any movie and get recommendations!
+
+### Tech Stack
+- Python | Pandas | Scikit-learn | TF-IDF | Cosine Similarity | Matplotlib | Seaborn
+
+### Results
+- Dataset: 24 movies, 6 genres
+- Algorithm: Content-Based Filtering
+
+### How to Run
+pip install pandas numpy scikit-learn matplotlib seaborn
+python Day4_movie_recommender.py
 
 ---
 
