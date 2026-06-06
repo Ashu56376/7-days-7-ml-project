@@ -12,25 +12,19 @@ A journey of building 7 Machine Learning projects in 7 days!
 | Day 2 | 📧 Spam Detector | ✅ Done |
 | Day 3 | 🌸 Flower Classifier | ✅ Done |
 | Day 4 | 🎬 Movie Recommender | ✅ Done |
-| Day 5 | 😊 Sentiment Analysis | 🔜 Coming |
+| Day 5 | 😊 Sentiment Analysis | ✅ Done |
 | Day 6 | 🖼️ Image Classifier | 🔜 Coming |
 | Day 7 | 🤖 AI Chatbot | 🔜 Coming |
 
 ---
 
 ## 🏠 Day 1 — House Price Prediction
-
 ### What I built
 Predicted California house prices using Linear Regression.
-
 ### Tech Stack
 - Python | Pandas | Scikit-learn | Matplotlib
-
 ### Results
-- R2 Score: 0.58
-- RMSE: 0.75
-- Predicted Price: $313,192
-
+- R2 Score: 0.58 | RMSE: 0.75 | Predicted Price: $313,192
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python Day1_houseprice.py
@@ -38,17 +32,12 @@ python Day1_houseprice.py
 ---
 
 ## 📧 Day 2 — Spam Detector
-
 ### What I built
 Full Spam Detector with GUI, Graphs and 98%+ accuracy.
-
 ### Tech Stack
 - Python | Pandas | Scikit-learn | Tkinter | Matplotlib | Seaborn
-
 ### Results
-- Accuracy: 98%+
-- Dataset: 5,572 SMS messages
-
+- Accuracy: 98%+ | Dataset: 5,572 SMS messages
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python Day2_spam_detector.py
@@ -56,17 +45,12 @@ python Day2_spam_detector.py
 ---
 
 ## 🌸 Day 3 — Flower Classifier
-
 ### What I built
 Classified Iris flowers into 3 species using Random Forest.
-
 ### Tech Stack
 - Python | Pandas | Scikit-learn | Matplotlib | Seaborn | Pickle
-
 ### Results
-- Dataset: Iris — 150 flowers, 3 species
-- Algorithm: Random Forest
-
+- Dataset: 150 flowers, 3 species | Algorithm: Random Forest
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python Day3_flower_classifier.py
@@ -74,35 +58,39 @@ python Day3_flower_classifier.py
 ---
 
 ## 🎬 Day 4 — Movie Recommender System
-
 ### What I built
 Content-based Movie Recommender using Cosine Similarity and TF-IDF.
-
-### Features
-- 24 movies dataset with genres and descriptions
-- TF-IDF Vectorizer for content analysis
-- Cosine Similarity for finding similar movies
-- 3 Analysis Graphs: Genre Distribution, Rating Distribution, Similarity Heatmap
-- Interactive CLI — type any movie and get recommendations!
-
 ### Tech Stack
-- Python | Pandas | Scikit-learn | TF-IDF | Cosine Similarity | Matplotlib | Seaborn
-
+- Python | Pandas | Scikit-learn | TF-IDF | Cosine Similarity | Matplotlib
 ### Results
-- Dataset: 24 movies, 6 genres
-- Algorithm: Content-Based Filtering
-
+- Dataset: 24 movies, 6 genres | Algorithm: Content-Based Filtering
 ### How to Run
 pip install pandas numpy scikit-learn matplotlib seaborn
 python Day4_movie_recommender.py
 
 ---
 
+## 😊 Day 5 — Sentiment Analysis
+### What I built
+Sentiment Analyzer with TextBlob + ML Model + GUI App.
+### Features
+- TextBlob for polarity and subjectivity analysis
+- Logistic Regression ML model
+- 4 Analysis Graphs: Distribution, Polarity, Scatter, Confusion Matrix
+- Tkinter GUI — type any review and get instant sentiment!
+### Tech Stack
+- Python | TextBlob | Scikit-learn | TF-IDF | Tkinter | Matplotlib | Seaborn
+### Results
+- Sentiments: Positive, Negative, Neutral, Mixed
+- Algorithm: TextBlob + Logistic Regression
+### How to Run
+pip install pandas numpy scikit-learn matplotlib seaborn textblob
+python Day5_sentiment_analysis.py
+
+---
+
 ## 🛠️ Tools Used
-- Python 3.10
-- VS Code
-- Scikit-learn
-- Git and GitHub
+- Python 3.10 | VS Code | Scikit-learn | Git and GitHub
 
 ---
 
